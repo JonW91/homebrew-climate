@@ -6,28 +6,28 @@
 class Climate < Formula
   desc "Cross-platform CLI weather forecast with ASCII art"
   homepage "https://github.com/JonW91/CLImate"
-  version "0.1.13"
+  version "0.1.14"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/JonW91/CLImate/releases/download/v#{version}/climate-osx-arm64.tar.gz"
-      sha256 "e5e5b6ecac66e5626cf018dc98dbe4648d257bce77f0e001557c7f7637d1906e"
+      sha256 "453b5981331525ceff7478bf939819cbfad7a88d07aba70914e542afe9b5b870"
     end
     on_intel do
       url "https://github.com/JonW91/CLImate/releases/download/v#{version}/climate-osx-x64.tar.gz"
-      sha256 "766b3b9880d069723dca478824410bca88a2f5168e147402a6155d9e5ea95d2c"
+      sha256 "7658abc5d3d9ca6dafb216f981d1a338ee6c695d36fb2b72618f1928a25f22d2"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/JonW91/CLImate/releases/download/v#{version}/climate-linux-arm64.tar.gz"
-      sha256 "01d2f8ed3795797f889ed5cf7aeb71a27a3607c04b05027ae1a90d090b501108"
+      sha256 "b2cd8433798f45741bab8976ab2c77730c1a29c48c4b90dca1449fd7d5c8efd4"
     end
     on_intel do
       url "https://github.com/JonW91/CLImate/releases/download/v#{version}/climate-linux-x64.tar.gz"
-      sha256 "9cd27074a19d3779afd86ea6652fccd95f497d5979a0cf2ab75e0d029f66940e"
+      sha256 "201bd26573d2cd87c709bf5e8b7925aa75af3523a04d49f2d1c0a5cffe1f833b"
     end
   end
 
